@@ -4,7 +4,7 @@ export default class Canvas {
         this.ctx = this.canvas.getContext('2d')
         this.w = 700
         this.h = 400
-        this.cellSize = 50
+        this.cellSize = 25
     }
 
     resize() {

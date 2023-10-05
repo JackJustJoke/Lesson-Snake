@@ -13,3 +13,15 @@ body {
 canvas {
     border: 1px rgb(62, 62, 62) solid;
 }
+
+.end {
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    background-color: rgb(12, 12, 12);
+    border: 2px white dotted;
+    padding: 40px 60px;
+    color: white;
+    font-size: 60px;
+}
